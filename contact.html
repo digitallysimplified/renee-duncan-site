@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Dr. Renee Duncan</title>
+  <meta name="description" content="Contact Dr. Renee Duncan.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans:wght@400&family=Corinthia&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="icon" href="favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    /* Styles for this page only */
+    .visually-hidden { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+    .contact-block { width: fit-content; max-width: 100%; margin: 0 auto; padding-top: 70px; }
+    .contact-details strong { color: #111; }
+    .contact-details a { color: #111; text-decoration: underline; text-underline-offset: 3px; }
+    .contact-details a:hover { color: #7b4f9d; }
+  </style>
+</head>
+<body>
+  <!-- Thins the handwriting strokes. Change radius (0.3 to 1) to make it thinner or thicker. -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <filter id="thin-script"><feMorphology operator="erode" radius="0.7"/></filter>
+    <filter id="thin-script-sm"><feMorphology operator="erode" radius="0.3"/></filter>
+  </svg>
+
+  <header class="masthead-wrap">
+    <a href="/" class="masthead" aria-label="Dr. Renee Duncan, home" style="display:block">
+      <span class="panel" aria-hidden="true"></span>
+      <span class="rule left" aria-hidden="true"></span>
+      <span class="rule right" aria-hidden="true"></span>
+      <span class="dr">DR.</span>
+      <span class="script">Renee</span>
+      <span class="duncan">DUNCAN</span>
+    </a>
+  </header>
+  <nav class="button-row" aria-label="Main">
+    <a class="btn" href="/about">About Renee</a>
+    <a class="btn" href="/publications">Publications</a>
+    <a class="btn" href="/portfolio">View Portfolio</a>
+    <a class="btn" href="/contact" aria-current="page">Contact</a>
+  </nav>
+
+  <main>
+    <section class="contact-block">
+      <h1 class="visually-hidden">Contact</h1>
+      <ul class="contact-details">
+        <li><strong>Email</strong> <a href="mailto:reneeaduncan1@gmail.com">reneeaduncan1@gmail.com</a></li>
+        <li><strong>LinkedIn</strong> <a href="https://www.linkedin.com/in/renee-duncan/" target="_blank" rel="noopener">linkedin.com/in/renee-duncan</a></li>
+        <li><strong>Location</strong> Brisbane, Queensland, Australia</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>&copy; <span id="yr"></span> Dr. Renee Duncan &middot; Brisbane, Australia</footer>
+  <script>document.getElementById('yr').textContent = new Date().getFullYear();</script>
+</body>
+</html>
