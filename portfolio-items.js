@@ -36,47 +36,11 @@ const TOP_BUTTONS = [
 ];
 
 const PORTFOLIO_INTRO =
-  "Selected work in learning design, multimedia, digital systems and research. Select a sample to open it, or use the dropdown to read about it.";
+  "Selected work in research, learning materials, digital systems and media design. Select a sample to open it, or use the dropdown to read about it.";
 
 const PORTFOLIO_ITEMS = [
 
-  /* ---------- 1. Learning Design ---------- */
-  {
-    section: "Learning Design",
-    title: "NYC Teacher Certification: edTPA Guide",
-    type: "Annotated Learner Guide",
-    link: "https://docs.google.com/document/d/1lzmMVxlEZ12ksTlI9_PhpuCKcsZzXNDwO0hVhxUUSLU/edit?usp=sharing",
-    what: "An annotated guide to edTPA Task 2 for music education candidates. For each prompt it sets out how long the response should be, ways to organise it, and how to cite evidence from teaching video clips.",
-    role: "Created the guide while mentoring the 2020 and 2021 music education cohorts at Teachers College, Columbia University, who achieved a 100% edTPA pass rate.",
-    skills: ["Scaffolding", "Assessment literacy", "Adult learning"],
-    thumbnail: "auto"
-  },
-  {
-    section: "Learning Design",
-    title: "Chord Basics Interactive Lesson",
-    type: "Interactive Google Slides",
-    link: "https://docs.google.com/presentation/d/16-I_6M3MVG-oSPIAFALhamzzuaI2zVXPgfj6Cn0rUK8/edit?usp=sharing",
-    mainAction: { label: "Try It (Get a Copy)", url: "https://docs.google.com/presentation/d/16-I_6M3MVG-oSPIAFALhamzzuaI2zVXPgfj6Cn0rUK8/copy" },
-    extras: [
-      { label: "View Video", url: "https://drive.google.com/file/d/1G1HZ4NZPX05b_NizHs2M59CFAnKTk6Zm/view?usp=sharing", onPage: true }
-    ],
-    what: "A self-paced, interactive slide deck for middle school music. Students watch a demonstration video, build chords in drag-and-drop activities, play them on a linked online xylophone, and can unlock an optional next level.",
-    role: "Designed and built the lesson, including the activities, navigation and a help page linking to my video tutorials.",
-    skills: ["Interactive learning design", "Self-paced learning", "Google Slides"],
-    thumbnail: "auto"
-  },
-  {
-    section: "Learning Design",
-    title: "Composing a Melody: Online Task with Video Tutorials",
-    type: "Online Lesson & Task Sheet",
-    link: "https://docs.google.com/document/d/1pQPIwLgfQAOu0X1ZP7yVl0SpotUhPb5_E-ctGxhRhmA/edit?usp=sharing",
-    what: "A self-paced online task for Year 7 music. Students compose an 8-bar melody in C major in Soundtrap, choosing to record live or build it in the piano roll, with a short tutorial video linked at each stage.",
-    role: "Designed the task, its step-by-step success criteria and the two learning pathways, and created the linked tutorial videos.",
-    skills: ["Online task design", "Video tutorials", "Learner choice", "Soundtrap"],
-    thumbnail: "auto"
-  },
-
-  /* ---------- 2. Research & Presentations ---------- */
+  /* ---------- 1. Research & Presentations ---------- */
   {
     section: "Research & Presentations",
     title: "Are Schwab's Commonplaces Common in Music Teaching?",
@@ -92,7 +56,7 @@ const PORTFOLIO_ITEMS = [
     title: "Cognitive Processing in Digital Audio Workstation Composing",
     type: "Published Article",
     link: "https://drive.google.com/file/d/13Yuiy2fuWq0RJlmmwk4y5fgS-8sWvnMW/view?usp=sharing",
-    what: "A peer-reviewed article in General Music Today (2021) on how students think and learn when creating in GarageBand and Soundtrap, in class and online.",
+    what: "A peer-reviewed article in the Journal of General Music Education (2021/2026) on how students think and learn when creating in GarageBand and Soundtrap, in class and online.",
     role: "Sole author.",
     skills: ["Technology-enhanced learning", "Online learning", "Research"],
     thumbnail: "auto"
@@ -106,6 +70,42 @@ const PORTFOLIO_ITEMS = [
     what: "Strategies for Success. Session slides from the 57th NAfME Eastern Division Biennial In-Service Conference (April 2021), showing how project-based lessons were designed to work in person, online and in hybrid classes, with assessment examples and student work.",
     role: "Co-designed the curriculum and co-presented the session with Dr. Kary Haddad.",
     skills: ["Online & hybrid learning design", "Project-based learning", "Professional presentation"],
+    thumbnail: "auto"
+  },
+
+  /* ---------- 2. Learning Materials ---------- */
+  {
+    section: "Learning Materials",
+    title: "NYC Teacher Certification: edTPA Guide",
+    type: "Annotated Learner Guide",
+    link: "https://docs.google.com/document/d/1lzmMVxlEZ12ksTlI9_PhpuCKcsZzXNDwO0hVhxUUSLU/edit?usp=sharing",
+    what: "An annotated guide to edTPA Task 2 for music education candidates. For each prompt it sets out how long the response should be, ways to organise it, and how to cite evidence from teaching video clips.",
+    role: "Created the guide while mentoring the 2020 and 2021 music education cohorts at Teachers College, Columbia University, who achieved a 100% edTPA pass rate.",
+    skills: ["Scaffolding", "Assessment literacy", "Adult learning"],
+    thumbnail: "auto"
+  },
+  {
+    section: "Learning Materials",
+    title: "Chord Basics Interactive Lesson",
+    type: "Interactive Google Slides",
+    link: "https://docs.google.com/presentation/d/16-I_6M3MVG-oSPIAFALhamzzuaI2zVXPgfj6Cn0rUK8/edit?usp=sharing",
+    mainAction: { label: "Try It (Get a Copy)", url: "https://docs.google.com/presentation/d/16-I_6M3MVG-oSPIAFALhamzzuaI2zVXPgfj6Cn0rUK8/copy" },
+    extras: [
+      { label: "View Video", url: "https://drive.google.com/file/d/1G1HZ4NZPX05b_NizHs2M59CFAnKTk6Zm/view?usp=sharing", onPage: true }
+    ],
+    what: "A self-paced, interactive slide deck for middle school music. Students watch a demonstration video, build chords in drag-and-drop activities, play them on a linked online xylophone, and can unlock an optional next level.",
+    role: "Designed and built the lesson, including the activities, navigation and a help page linking to my video tutorials.",
+    skills: ["Interactive learning design", "Self-paced learning", "Google Slides"],
+    thumbnail: "auto"
+  },
+  {
+    section: "Learning Materials",
+    title: "Composing a Melody: Online Task with Video Tutorials",
+    type: "Online Lesson & Task Sheet",
+    link: "https://docs.google.com/document/d/1pQPIwLgfQAOu0X1ZP7yVl0SpotUhPb5_E-ctGxhRhmA/edit?usp=sharing",
+    what: "A self-paced online task for Year 7 music. Students compose an 8-bar melody in C major in Soundtrap, choosing to record live or build it in the piano roll, with a short tutorial video linked at each stage.",
+    role: "Designed the task, its step-by-step success criteria and the two learning pathways, and created the linked tutorial videos.",
+    skills: ["Online task design", "Video tutorials", "Learner choice", "Soundtrap"],
     thumbnail: "auto"
   },
 
@@ -131,9 +131,9 @@ const PORTFOLIO_ITEMS = [
     thumbnail: "auto"
   },
 
-  /* ---------- 4. Multimedia & Design ---------- */
+  /* ---------- 4. Media & Design ---------- */
   {
-    section: "Multimedia & Design",
+    section: "Media & Design",
     title: "Matilda the Musical JR.",
     type: "Video & Print Design",
     link: "https://drive.google.com/file/d/1VUfd0uD2mInGK5Qvo0uSrPrdLQzgGNTx/view?usp=sharing",
@@ -147,7 +147,7 @@ const PORTFOLIO_ITEMS = [
     thumbnail: "drive:1ZzQDW_Bh5W5JmY0o0UR248oJVlmHumh6"   // preview image: the program cover
   },
   {
-    section: "Multimedia & Design",
+    section: "Media & Design",
     title: "MEANYC Marketing",
     type: "Design & E-commerce",
     link: "https://drive.google.com/file/d/1iS4G6qdS4F3QGr15khaxsX_k30nSi6YU/view?usp=sharing",
@@ -163,7 +163,7 @@ const PORTFOLIO_ITEMS = [
     thumbnail: "drive:1VHTf_bihRkdwUVwemh_RCkHSQXOH5-SN"   // preview image: the social media graphic
   },
   {
-    section: "Multimedia & Design",
+    section: "Media & Design",
     title: "Junior Area All-State Concert Programs",
     type: "Print Design",
     link: "https://drive.google.com/file/d/1HsSlNhdN2JkyFxif6QkSpIxicut0ep1q/view?usp=sharing",
